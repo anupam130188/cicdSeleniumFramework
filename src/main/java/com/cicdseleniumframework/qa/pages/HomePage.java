@@ -1,5 +1,6 @@
 package com.cicdseleniumframework.qa.pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -26,7 +27,8 @@ public class HomePage {
 	{
 		try {
 			Thread.sleep(10);
-			myAccountDropMenu.click();
+		//	myAccountDropMenu.click();
+		driver.findElement(By.xpath("//span[text()='My Account']")).click();
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
