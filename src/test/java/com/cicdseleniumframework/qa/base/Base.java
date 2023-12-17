@@ -46,7 +46,7 @@ public class Base {
 	{
 		System.setProperty("webdriver.chrome.driver", "E:\\Learning\\CICDFramework\\cicdSeleniumFramework\\driver\\chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
-		options.setBinary("C:\\Users\\guru\\Downloads\\chrome-win64\\chrome-win64\\chrome.exe");
+		//options.setBinary("C:\\Users\\guru\\Downloads\\chrome-win64\\chrome-win64\\chrome.exe");
 		options.addArguments("--remote-allow-origins=*");
 		
 		driver = new ChromeDriver();
