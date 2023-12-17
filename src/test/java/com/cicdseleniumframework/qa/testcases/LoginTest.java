@@ -38,6 +38,7 @@ public class LoginTest extends Base{
 	@AfterMethod
 	public void tearDown ()
 	{
+		System.out.println("Driver quit");
 		driver.quit();
 	}
 	
