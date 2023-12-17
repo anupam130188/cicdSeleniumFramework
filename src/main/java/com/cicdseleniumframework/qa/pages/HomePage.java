@@ -24,7 +24,14 @@ public class HomePage {
 	
 	public void clickOnMyAccount ()
 	{
-		myAccountDropMenu.click();
+		try {
+			Thread.sleep(10);
+			myAccountDropMenu.click();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 	}
 	
 	public LoginPage selectLoginOption()
