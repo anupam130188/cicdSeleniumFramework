@@ -1,1 +1,6 @@
+com\cicdseleniumframework\qa\pages\HomePage.class
+com\cicdseleniumframework\qa\utils\ExtentReporter.class
+com\cicdseleniumframework\qa\pages\LoginPage.class
+com\cicdseleniumframework\qa\listeners\MyListener.class
+com\cicdseleniumframework\qa\utils\Utilities.class
 com\cicdseleniumframework\qa\utils\Utilities$1.class

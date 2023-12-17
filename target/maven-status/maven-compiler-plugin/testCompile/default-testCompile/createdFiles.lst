@@ -1,0 +1,3 @@
+com\cicdseleniumframework\qa\base\Base.class
+com\cicdseleniumframework\qa\testcases\LoginTest.class
+com\cicdseleniumframework\qa\testcases\RegisterTest.class
