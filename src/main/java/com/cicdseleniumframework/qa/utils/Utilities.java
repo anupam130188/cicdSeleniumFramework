@@ -20,6 +20,7 @@ public class Utilities {
 	public static final int PAGE_LOAD_TIME=5;
 
 	
+	@SuppressWarnings("incomplete-switch")
 	public static Object [][] getTestDataFromExcel(String sheetName) 
 	{
 		File file = new File(System.getProperty("user.dir")+"\\resources\\testdata.xlsx");
