@@ -1,0 +1,5 @@
+# Created at 2023-12-25T21:58:34.371
+Boot Manifest-JAR contains absolute paths in classpath 'E:\Learning\CICDFramework\cicdSeleniumFramework\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

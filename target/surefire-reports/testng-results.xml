@@ -1,59 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-17T17:37:50Z" name="CI CD SeleniumFramework Suite" finished-at="2023-12-17T17:38:50Z" duration-ms="59465">
+  <suite started-at="2023-12-26T02:58:35Z" name="CI CD SeleniumFramework Suite" finished-at="2023-12-26T02:58:58Z" duration-ms="23126">
     <groups>
     </groups>
-    <test started-at="2023-12-17T17:37:50Z" name="CI CD SeleniumFramework Test Cases" finished-at="2023-12-17T17:38:50Z" duration-ms="59465">
-      <class name="com.cicdseleniumframework.qa.testcases.RegisterTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cicdseleniumframework.qa.testcases.RegisterTest@475e586c]" started-at="2023-12-17T17:38:31Z" name="setUp" finished-at="2023-12-17T17:38:38Z" duration-ms="7476" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyRegisteringAnAccount()[pri:0, instance:com.cicdseleniumframework.qa.testcases.RegisterTest@475e586c]" started-at="2023-12-17T17:38:38Z" name="verifyRegisteringAnAccount" finished-at="2023-12-17T17:38:41Z" duration-ms="2575" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegisteringAnAccount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cicdseleniumframework.qa.testcases.RegisterTest@475e586c]" started-at="2023-12-17T17:38:41Z" name="tearDown" finished-at="2023-12-17T17:38:41Z" duration-ms="392" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cicdseleniumframework.qa.testcases.RegisterTest@475e586c]" started-at="2023-12-17T17:38:41Z" name="setUp" finished-at="2023-12-17T17:38:48Z" duration-ms="7226" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyRegisterwithoutFillingDetails()[pri:0, instance:com.cicdseleniumframework.qa.testcases.RegisterTest@475e586c]" started-at="2023-12-17T17:38:48Z" name="verifyRegisterwithoutFillingDetails" finished-at="2023-12-17T17:38:49Z" duration-ms="873" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegisterwithoutFillingDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cicdseleniumframework.qa.testcases.RegisterTest@475e586c]" started-at="2023-12-17T17:38:49Z" name="tearDown" finished-at="2023-12-17T17:38:50Z" duration-ms="499" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.cicdseleniumframework.qa.testcases.RegisterTest -->
+    <test started-at="2023-12-26T02:58:35Z" name="CI CD SeleniumFramework Test Cases" finished-at="2023-12-26T02:58:58Z" duration-ms="23126">
       <class name="com.cicdseleniumframework.qa.testcases.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cicdseleniumframework.qa.testcases.LoginTest@6295d394]" started-at="2023-12-17T17:37:51Z" name="setUp" finished-at="2023-12-17T17:38:11Z" duration-ms="19946" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cicdseleniumframework.qa.testcases.LoginTest@6646153]" started-at="2023-12-26T02:58:36Z" name="setUp" finished-at="2023-12-26T02:58:49Z" duration-ms="12978" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyLoginWithInValidPasswordCredentials()[pri:0, instance:com.cicdseleniumframework.qa.testcases.LoginTest@6295d394]" started-at="2023-12-17T17:38:11Z" name="verifyLoginWithInValidPasswordCredentials" finished-at="2023-12-17T17:38:12Z" duration-ms="1494" status="PASS">
+        <test-method signature="verifyLoginWithInValidPasswordCredentials()[pri:0, instance:com.cicdseleniumframework.qa.testcases.LoginTest@6646153]" started-at="2023-12-26T02:58:49Z" name="verifyLoginWithInValidPasswordCredentials" finished-at="2023-12-26T02:58:51Z" duration-ms="1282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInValidPasswordCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cicdseleniumframework.qa.testcases.LoginTest@6295d394]" started-at="2023-12-17T17:38:12Z" name="tearDown" finished-at="2023-12-17T17:38:17Z" duration-ms="4756" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cicdseleniumframework.qa.testcases.LoginTest@6646153]" started-at="2023-12-26T02:58:51Z" name="tearDown" finished-at="2023-12-26T02:58:51Z" duration-ms="380" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cicdseleniumframework.qa.testcases.LoginTest@6295d394]" started-at="2023-12-17T17:38:17Z" name="setUp" finished-at="2023-12-17T17:38:28Z" duration-ms="11011" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cicdseleniumframework.qa.testcases.LoginTest@6646153]" started-at="2023-12-26T02:58:51Z" name="setUp" finished-at="2023-12-26T02:58:56Z" duration-ms="5301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyLoginWithValidCredentials()[pri:0, instance:com.cicdseleniumframework.qa.testcases.LoginTest@6295d394]" started-at="2023-12-17T17:38:28Z" name="verifyLoginWithValidCredentials" finished-at="2023-12-17T17:38:30Z" duration-ms="2103" status="PASS">
+        <test-method signature="verifyLoginWithValidCredentials()[pri:0, instance:com.cicdseleniumframework.qa.testcases.LoginTest@6646153]" started-at="2023-12-26T02:58:56Z" name="verifyLoginWithValidCredentials" finished-at="2023-12-26T02:58:58Z" duration-ms="1870" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cicdseleniumframework.qa.testcases.LoginTest@6295d394]" started-at="2023-12-17T17:38:30Z" name="tearDown" finished-at="2023-12-17T17:38:31Z" duration-ms="592" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cicdseleniumframework.qa.testcases.LoginTest@6646153]" started-at="2023-12-26T02:58:58Z" name="tearDown" finished-at="2023-12-26T02:58:58Z" duration-ms="388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

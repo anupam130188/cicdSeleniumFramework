@@ -8,12 +8,12 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePage {
 
-	 WebDriver driver;
+	public WebDriver driver;
 	@FindBy(xpath = "//span[text()='My Account']")
-	private WebElement myAccountDropMenu;
+	public WebElement myAccountDropMenu;
 	
 	@FindBy(linkText = "Login")
-	private WebElement myAccountLogin;
+	public WebElement myAccountLogin;
 	
 	public HomePage(WebDriver driver)
 	{
