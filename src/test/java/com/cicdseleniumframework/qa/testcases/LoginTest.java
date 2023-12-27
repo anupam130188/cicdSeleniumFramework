@@ -30,10 +30,13 @@ public class LoginTest extends Base{
 	public void setUp ()
 	{
 		driver = openApplicationUrl(prop.getProperty("browserName"));
+		System.out.println("URL launched and user landed tp Logintest Page");
 		HomePage homePage = new HomePage(driver);
 //		homePage.clickOnMyAccount();
 //		loginPage=homePage.selectLoginOption();
 		loginPage=homePage.ClickonAccountSelectLoginOption();
+		System.out.println("User clicked on ClickonAccountSelectLoginOption");
+		
 	}
 	@AfterMethod
 	public void tearDown ()

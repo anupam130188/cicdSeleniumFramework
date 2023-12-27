@@ -59,12 +59,18 @@ public class Base {
 	{
 		driver = new EdgeDriver();
 	}
-			
+	System.out.println("Browser selected Chrome");		
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Utilities.IMPLICIT_WAIT_TIME));
 	driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(Utilities.PAGE_LOAD_TIME));
 	driver.get(prop.getProperty("url"));
-	
+	System.out.println("Url Launched : "+prop.getProperty("url"));
+	try {
+		Thread.sleep(10);
+	} catch (InterruptedException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
 	return driver;
 }
 }

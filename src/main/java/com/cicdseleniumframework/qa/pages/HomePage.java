@@ -28,7 +28,10 @@ public class HomePage {
 		try {
 			Thread.sleep(10);
 		//	myAccountDropMenu.click();
+			System.out.println("Clicking on clickOnMyAccount option");
 		driver.findElement(By.xpath("//span[text()='My Account']")).click();
+
+		System.out.println("Clicked on clickOnMyAccount option");
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
