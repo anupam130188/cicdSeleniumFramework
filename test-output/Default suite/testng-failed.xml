@@ -5,7 +5,6 @@
     <classes>
       <class name="com.cicdseleniumframework.qa.testcases.LoginTest">
         <methods>
-          <include name="verifyLoginWithInValidPasswordCredentialsandDataProvider"/>
           <include name="tearDown"/>
           <include name="verifyLoginWithValidCredentials"/>
           <include name="setUp"/>

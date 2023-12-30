@@ -1,7 +1,13 @@
 package com.cicdseleniumframework.qa.pages;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage {
 
@@ -27,10 +33,14 @@ public class HomePage {
 	{
 		try {
 			Thread.sleep(10);
-		//	myAccountDropMenu.click();
+//			myAccountDropMenu.click();
 			System.out.println("Clicking on clickOnMyAccount option");
-		driver.findElement(By.xpath("//span[text()='My Account']")).click();
 
+			WebElement element = driver.findElement(By.xpath("//span[text()='My Account']"));
+			JavascriptExecutor executor = (JavascriptExecutor)driver;
+			executor.executeScript("arguments[0].click();", element);
+			Thread.sleep(2);
+			//
 		System.out.println("Clicked on clickOnMyAccount option");
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
@@ -49,6 +59,7 @@ public class HomePage {
 	public LoginPage ClickonAccountSelectLoginOption ()
 	{
 		clickOnMyAccount();
-		return selectLoginOption();
+		selectLoginOption();
+		return new LoginPage(driver);
 	}
 }

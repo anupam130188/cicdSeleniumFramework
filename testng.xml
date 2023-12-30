@@ -2,7 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="2" name="CI CD SeleniumFramework Suite">
 	<listeners>
-		<listener class-name="com.cicdseleniumframework.qa.listeners.MyListener"></listener>
+		<listener class-name="com.cicdseleniumframework.qa.listeners.MyListener">			
+		</listener>
 	</listeners>
   <test name="CI CD SeleniumFramework Test Cases">
     <classes>

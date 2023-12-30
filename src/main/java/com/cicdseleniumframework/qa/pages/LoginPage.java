@@ -28,18 +28,22 @@ public class LoginPage {
 	public void enterLoginEmail (String email)
 	{
 		driver.findElement(By.xpath("//input[@id='input-email']")).sendKeys(email);
+	//	driver.findElement(By.xpath("//input[@id='user-name']")).sendKeys(email);
 	}
 	
 	public void enterLoginPassword(String password)
 	{
 		driver.findElement(By.xpath("//input[@id='input-password']")).sendKeys(password);
 		//loginPassword.sendKeys(password);
+		//driver.findElement(By.xpath("//input[@id='password']")).sendKeys(password);
+		
 	}
 	
 	public void clickLogin()
 	{
 		driver.findElement(By.xpath("//input[@value='Login']")).click();
 		//loginBtn.click();
+		//driver.findElement(By.xpath("//input[@id='login-button']")).click();
 	}
 	
 	public void enterEmailPasswordAndClickLogin (String email,String password)

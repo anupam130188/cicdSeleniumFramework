@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [CI CD SeleniumFramework Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.cicdseleniumframework.qa.listeners.MyListener"/>
+  </listeners>
+  <test thread-count="2" name="CI CD SeleniumFramework Test Cases(failed)" verbose="0">
+    <classes>
+      <class name="com.cicdseleniumframework.qa.testcases.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyLoginWithValidCredentials"/>
+          <include name="verifyLoginWithInValidPasswordCredentials"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.cicdseleniumframework.qa.testcases.LoginTest -->
+    </classes>
+  </test> <!-- CI CD SeleniumFramework Test Cases(failed) -->
+</suite> <!-- Failed suite [CI CD SeleniumFramework Suite] -->

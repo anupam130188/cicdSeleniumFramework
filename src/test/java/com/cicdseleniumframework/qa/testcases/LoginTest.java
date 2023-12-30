@@ -54,6 +54,7 @@ public class LoginTest extends Base{
 //		loginPage.clickLogin();
 		loginPage.enterEmailPasswordAndClickLogin("anupam.chandan@yahoo.com", "12345");
 		Assert.assertTrue(driver.findElement(By.linkText("Edit your account information")).isDisplayed());
+		//loginPage.enterEmailPasswordAndClickLogin("standard_user", "secret_sauce");
 	}
 	
 	@Test
@@ -68,8 +69,8 @@ public class LoginTest extends Base{
 		  loginPage.enterEmailPasswordAndClickLogin("anupam.chandan@yahoo.com", "1234567");
 		  Assert.assertTrue(driver.findElement(By.
 		  xpath("//div[@class='alert alert-danger alert-dismissible']")).isDisplayed());
-		 	
-		
+//		 	
+		// loginPage.enterEmailPasswordAndClickLogin("standard_user", "secret_sauceee");
 	}
 	
 	//@Test(dataProvider ="supplyTestData")
