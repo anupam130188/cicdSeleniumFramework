@@ -32,6 +32,7 @@ public class Base {
 		prop = new Properties();
 		File propFile = new File(System.getProperty("user.dir")
 				+ "\\src\\main\\java\\com\\cicdseleniumframework\\qa\\config\\config.properties");
+		System.out.println("System.getProperty(\"user.dir\") "+ System.getProperty("user.dir") );
 		try {
 			FileInputStream fis = new FileInputStream(propFile);
 			prop.load(fis);
@@ -44,7 +45,7 @@ public class Base {
 
 	if (browserName.equals("chrome"))
 	{
-		System.setProperty("webdriver.chrome.driver", "E:\\Learning\\CICDFramework\\cicdSeleniumFramework\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\driver\\chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
 		//options.setBinary("C:\\Users\\guru\\Downloads\\chrome-win64\\chrome-win64\\chrome.exe");
 		options.addArguments("--remote-allow-origins=*");
