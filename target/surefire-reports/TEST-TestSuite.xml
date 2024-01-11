@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="38.114" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="31.065" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -26,7 +26,7 @@
     <property name="user.variant" value=""/>
     <property name="stderr.encoding" value="UTF-8"/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="E:\Learning\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8368220266541289129.tmp"/>
+    <property name="classworlds.conf" value="E:\Learning\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf15563687008248762921.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="stdout.encoding" value="UTF-8"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/guru/Downloads/eclipse-java-2023-09-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858/jre/bin/server;C:/Users/guru/Downloads/eclipse-java-2023-09-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858/jre/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\guru\AppData\Local\Programs\Python\Python311\Scripts;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Git\cmd;C:\Users\guru\Downloads\apache-maven-3.9.6\bin;C:\Users\guru\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm Community Edition 2022.2.3\bin;;C:\Users\guru\Downloads\eclipse-java-2023-09-R-win32-x86_64\eclipse;;."/>
@@ -58,9 +58,9 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="m2e.build.project.data.socket.port" value="52474"/>
+    <property name="m2e.build.project.data.socket.port" value="53291"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="verifyLoginWithInValidPasswordCredentials" classname="com.cicdseleniumframework.qa.testcases.LoginTest" time="2.571"/>
-  <testcase name="verifyLoginWithValidCredentials" classname="com.cicdseleniumframework.qa.testcases.LoginTest" time="2.224"/>
+  <testcase name="verifyLoginWithInValidPasswordCredentials" classname="com.cicdseleniumframework.qa.testcases.LoginTest" time="1.761"/>
+  <testcase name="verifyLoginWithValidCredentials" classname="com.cicdseleniumframework.qa.testcases.LoginTest" time="1.644"/>
 </testsuite>

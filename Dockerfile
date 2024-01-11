@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
-ADD target/cicdseleniumframework.jar cicdseleniumframework.jar 
+ADD target/cicdSeleniumFramework-0.0.1-SNAPSHOT.jar cicdseleniumframework.jar 
 ENTRYPOINT ["java","-jar", "cicdseleniumframework.jar"]
